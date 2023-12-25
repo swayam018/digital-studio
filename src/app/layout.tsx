@@ -13,7 +13,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="en"> 
       <body className=' bg-t-secondary text-black bg-gradient-to-tr from-blue-800 to-purple-800'>
         <Header />
         {children} 

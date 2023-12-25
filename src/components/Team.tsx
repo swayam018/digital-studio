@@ -2,23 +2,56 @@ import Image from 'next/image'
 import React from 'react'
 import photography from '../../public/service-1.jpg';
 import bgimage from '../../public/bg-image.jpeg';
-const array = [1, 2, 3];
+const people = [
+    {
+        name: 'Leslie Alexander',
+        role: 'Photographer',
+        imageUrl:
+            'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+    },
+    {
+        name: 'Leslie Alexander',
+        role: 'Photographer',
+        imageUrl:
+            'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+    },
+    {
+        name: 'Leslie Alexander',
+        role: 'Photographer',
+        imageUrl:
+            'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+    }, {
+        name: 'Leslie Alexander',
+        role: 'Photographer',
+        imageUrl:
+            'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+    },
+]
 
 function Team() {
     return (
-        <div className='  backdrop-blur-xl bg-black/80 pb-5 '>
-            <div className=' pt-8 text-5xl text-white text-center'>Our Team</div>
-            <div className=' pt-8 flex justify-around flex-wrap gap-4'>
-                {array.map((item, index) => (
-                    <div className=' w-80 h-fit  relative rounded-md bg-black pb-4 text-white' key={index} >
-                        <Image src={bgimage} alt='banner' width={400} height={20} className=' w-80 h-28 object-cover  rounded-t-md' />
-                        <Image src={photography} alt='member' width={100} height={80} className='w-20 h-20 rounded-full absolute inset-y-1/3 inset-x-[116px]' />
-                        <div className=' mt-12  flex flex-col items-center text-xl font-semibold '>
-                            <div className='tracking-wider text-xl'>Sonu Subrat</div>
-                            <div className=' font-thin text-lg'>Photographer</div>
-                        </div>
-                    </div>
-                ))}
+        <div className="bg-black/80 py-14 sm:py-14">
+            <div className="mx-auto grid max-w-7xl gap-x-8 gap-y-20 px-6 lg:px-8 xl:grid-cols-3">
+                <div className="max-w-2xl">
+                    <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">Meet our Team</h2>
+                    <p className="mt-6 text-lg leading-8 text-gray-400">
+                        Libero fames augue nisl porttitor nisi, quis. Id ac elit odio vitae elementum enim vitae ullamcorper
+                        suspendisse.
+                    </p>
+                </div>
+                <ul role="list" className="grid gap-x-8 gap-y-12 sm:grid-cols-2 sm:gap-y-16 xl:col-span-2">
+                    {people.map((person) => (
+                        <li key={person.name}>
+                            <div className="flex items-center gap-x-6">
+                                <img className="h-16 w-16 rounded-full" src={person.imageUrl} alt="" />
+                                <div>
+                                    <h3 className="text-base font-semibold leading-7 tracking-tight text-gray-400">{person.name}</h3>
+                                    <p className="text-sm font-semibold leading-6 text-indigo-600">{person.role}</p>
+                                </div>
+                            </div>
+                        </li>
+                    ))}
+                </ul>
             </div>
         </div>
     )
