@@ -5,6 +5,7 @@ import React from "react";
 import Services from "@/components/Services";
 import Team from "@/components/Team";
 import Gallery from "@/components/Gallery";
+import Contact from "@/components/Contact";
 
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       <Services/>
       <Team/>
       <Gallery/>
+      <Contact/>
     </main>
   )
 }

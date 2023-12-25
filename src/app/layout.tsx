@@ -16,7 +16,7 @@ export default function RootLayout({
     <html lang="en">
       <body className=' bg-t-secondary text-black bg-gradient-to-tr from-blue-800 to-purple-800'>
         <Header />
-        {children}
+        {children} 
       </body>
     </html>
   )
