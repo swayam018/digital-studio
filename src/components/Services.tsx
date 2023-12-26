@@ -15,8 +15,8 @@ const ServicesOffer = [
 
 function Services() {
   return (
-    <div className=' backdrop-blur-xl bg-black/80 pb-5 '>
-      <div className=" text-5xl text-center pt-8 text-white">Our Services</div>
+    <div className=' backdrop-blur-2xl bg-black/80 pb-5 '>
+      <div className=" text-4xl font-bold tracking-tight text-white sm:text-4xl text-center pt-8">Our Services</div>
       <div className=' flex flex-row gap-8  w-full flex-wrap justify-around pt-8 [&>*]:bg-black text-t-primary '>
         <div className=" w-80 p-2 rounded-md flex flex-col items-center gap-2 hover:shadow-normal hover:shadow-purple-950 " >
           <Image src={photography} alt="Services" width={320} height={250} className=" rounded-md" />

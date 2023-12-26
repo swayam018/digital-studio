@@ -68,20 +68,14 @@ function Header() {
                         <li className='hover:text-gray-400' onClick={() => setOpen(false)}><Link
                             href={'/'} >Home</Link></li>
                         <li className='hover:text-gray-400' onClick={() => setOpen(false)}><Link
-                            href={'/services'} >Services</Link></li>
+                            href={'#services'} >Services</Link></li>
+                        <li className='hover:text-gray-400' onClick={() => setOpen(false)}><Link href={'#gallery'}>Gallery</Link></li>
                         <li className='hover:text-gray-400' onClick={() => setOpen(false)}><Link
-                            href={'/services'} >Gallery</Link></li>
+                            href={'#about'} >About</Link></li>
                         <li className='hover:text-gray-400' onClick={() => setOpen(false)}><Link
-                            href={'/services'} >About</Link></li>
-                        <li className='hover:text-gray-400' onClick={() => setOpen(false)}><Link
-                            href={'/services'} >Contact</Link></li>
+                            href={'#contact'} >Contact</Link></li>
                     </ul>
                 </div>
-                {/* <div>
-                    <button onClick={toggleFullscreen}>
-                        {isFullscreen ? 'Exit Fullscreen' : 'Enter Fullscreen'}
-                    </button>
-                </div> */}
             </nav>
         </header>
     );
