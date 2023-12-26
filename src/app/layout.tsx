@@ -16,7 +16,6 @@ export default function RootLayout({
   return (
     <html lang="en"> 
       <body className=' bg-t-secondary text-black bg-gradient-to-tr from-blue-800 to-purple-800'>
-        {/* <Header /> */}
         {children} 
         <Footer/>
       </body>

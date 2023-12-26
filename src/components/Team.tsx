@@ -1,7 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
 import photographya from '../../public/service-1.jpg';
-import bgimage from '../../public/bg-image.jpeg';
 const people = [
     {
         name: 'Subrat Pradhan',

@@ -1,6 +1,6 @@
 import React from 'react'
 import Team from './Team'
-import cameraphoto from '../../public/camera photo.webp';
+import prephotoshoot from '../../public/prephotoshoot.jpg';
 import Image from 'next/image';
 
 function About() {
@@ -13,7 +13,7 @@ function About() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="mb-4 md:mb-0">
               <Image
-                src={cameraphoto}
+                src={prephotoshoot}
                 width={500}
                 height={500}
                 alt="Photography Studio"

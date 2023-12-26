@@ -32,13 +32,13 @@ function Gallery() {
                     <Image src={bridalportrait} alt="gallery" width={500} height={10} className=' w-full  aspect-square object-cover min-h-full' />
                 </div>
                 <div className="bg-violet-100 max-md:row-span-3 overflow-hidden">
-                    <Image src={cameraphoto} alt="gallery" width={500} height={10} className=' w-full  aspect-square object-cover min-h-full' />
+                    <Image src={camera} alt="gallery" width={500} height={10} className=' w-full  aspect-square object-cover min-h-full' />
                 </div>
                 <div className="bg-sky-100 max-md:row-span-2 md:row-span-2  overflow-hidden">
                     <Image src={bridel} alt="gallery" width={500} height={10} className=' w-full  aspect-square object-cover min-h-full ' />
                 </div>
                 <div className="bg-sky-100 max-md:col-span-2  overflow-hidden">
-                    <Image src={mehndi} alt="gallery" width={500} height={10} className=' w-full  aspect-square object-cover min-h-full ' />
+                    <Image src={prephotoshoot} alt="gallery" width={500} height={10} className=' w-full  aspect-square object-cover min-h-full ' />
                 </div>
             </div>
         </div>
