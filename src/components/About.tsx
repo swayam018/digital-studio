@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 function About() {
   return (
-    <div className="bg-black/80 py-8 max-md:px-4">
+    <div className="bg-black/80 py-8 max-md:px-7">
       <div className="container mx-auto">
         <div className="flex flex-col items-center">
           <h1 className="text-4xl font-bold mb-8 text-slate-50 text-center">About Our Studio</h1>
