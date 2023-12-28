@@ -8,17 +8,17 @@ const people = [
         imageUrl:photographya,
     },
     {
-        name: 'Subrat Pradhan',
+        name: 'Abhishek Pradhan',
         role: 'Photographer',
         imageUrl:photographya,
     },
     {
-        name: 'Subrat Pradhan',
+        name: 'Rakesh Pradhan',
         role: 'Photographer',
         imageUrl:
         photographya,
     }, {
-        name: 'Subrat Pradhan',
+        name: 'Biswojit Pradhan',
         role: 'Photographer',
         imageUrl:photographya,
     },
