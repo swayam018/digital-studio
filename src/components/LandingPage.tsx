@@ -9,7 +9,7 @@ function LandingPage() {
   const [isMouseOver, setIsMouseOver] = useState(false);
 
   const { blur } = useSpring({
-    blur: isMouseOver ? 10 : 0, // Set the blur intensity
+    blur: isMouseOver ? 10 : 0,
   });
 
   return (
@@ -27,7 +27,7 @@ function LandingPage() {
             backgroundImage: `url(${bgimage.src})`,
             backgroundSize: 'cover',
             filter: blur.to((val) => `blur(${val}px)`),
-            transition: 'filter 0.5s ease', // Apply smooth transition
+            transition: 'filter 0.5s ease',
           }}
         />
         <div className="z-10 text-white relative min-h-screen flex flex-col items-center justify-center bg-black/20 backdrop-blur-sm">
