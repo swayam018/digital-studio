@@ -56,7 +56,7 @@ function Header() {
             <nav style={{ transition: `background-color 350ms ${isScroll ? '350ms' : '0ms'}` }}
                 className={`flex gap-4 item-center flex-row justify-between px-10 max-md:px-8 max-sm:px-4  ${isScroll ? " bg-black/80 backdrop-blur-sm  " : "bg-transparent"} w-full h-fit`}>
                 <div className=' w-80 h-16 flex items-center '>
-                    <Image src={digitalStudio} alt='Logo' width={100} height={10} className={` transition-all duration-700 ${isScroll ? " aspect-auto h-10 " : "w-40 h-16"}  aspect-auto`} />
+                    <Image src={digitalStudio} alt='Logo' width={100} height={50} className={` transition-all duration-700 ${isScroll ? " aspect-auto h-10 " : "w-40 h-16"}  aspect-auto`} />
                 </div>
                 <div className={`hidden text-5xl text-white max-lg:flex max-lg:items-center max-lg:justify-center max-lg:text-4xl`}
                     onClick={() => setOpen(true)}>

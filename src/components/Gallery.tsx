@@ -17,7 +17,7 @@ function Gallery() {
             <div className=' text-4xl font-bold tracking-tight text-white sm:text-4xl text-center py-8'>Gallery</div>
             <div className="grid grid-cols-2 grid-rows-7 md:grid-rows-4 md:grid-cols-4 gap-2 md:gap-4 h-[200vh] max-md:h-[250vh] max-sm:h-[200vh] max-[430px]:h-[160vh]">
                 <div className="bg-indigo-100 col-span-1  md:col-span-2 overflow-hidden">
-                    <Image src={wedding} alt="gallery" width={500} height={10} className=' w-full  aspect-square object-cover min-h-full ' />
+                    <Image src={wedding} alt="gallery" width={500} height={10} className=' w-full  aspect-square object-cover min-h-full  ' />
                 </div>
                 <div className="bg-fuchsia-100 max-md:row-span-2 md:col-span-2 row-span-1 md:row-span-2 overflow-hidden">
                     <Image src={ring} alt="gallery" width={500} height={10} className=' w-full  aspect-square object-cover min-h-full' />

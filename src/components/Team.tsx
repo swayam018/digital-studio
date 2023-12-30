@@ -9,17 +9,17 @@ const people = [
     },
     {
         name: 'Abhishek Pradhan',
-        role: 'Photographer',
+        role: 'Vidoghapher',
         imageUrl:photographya,
     },
     {
         name: 'Rakesh Pradhan',
-        role: 'Photographer',
+        role: 'Editor',
         imageUrl:
         photographya,
     }, {
         name: 'Biswojit Pradhan',
-        role: 'Photographer',
+        role: 'Assistant',
         imageUrl:photographya,
     },
 ]
